@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidencia Formularios</title>
+
+    <link rel="stylesheet" type="text/css" href="css/evidenciaFormularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1 id="Title">Formulario de inscripción</h1>
+        <form action="post">
+            <fieldset class="personal">
+                <legend>Datos Personales</legend>
+                <div class="inputTexto">
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Nombre" required>
+                </div>
+                <div class="inputTexto">
+                    <label>Apellido:</label>
+                    <input type="text" placeholder="Apellido" required>
+                </div>
+                <div class="inputTexto">
+                    <label>Dirección:</label>
+                    <input type="text" placeholder="Dirección" required>
+                </div>
+                <div class="inputTexto">
+                    <label>Teléfono:</label>
+                    <input type="number" placeholder="Teléfono" required>
+                </div>
+                <div class="inputEmail">
+                    <label>Correo Electrónico:</label>
+                    <input type="email" placeholder="ejemplo@ejemplo.com" required>
+                </div>
+                <div class="inputTexto">
+                    <label>Documento:</label>
+                    <input type="text" placeholder="Documento" required>
+                </div>
+                <div class="inputTexto">
+                    <label>Fecha de nacimiento:</label>
+                    <input type="date" placeholder="Fecha de nacimiento" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Capacitación</legend>
+                <div class="inputSelect">
+                    <label>Curso</label>
+                    <select>
+                        <option class="select">Seleccione un curso</option>
+                        <option>Excel 2007</option>
+                        <option>Word 2007</option>
+                        <option>Adobe Indesign</option>
+                        <option>Adobe Illustrator</option>
+                        <option>Adobe Photoshop</option>
+                        <option>3DMax</option>
+                    </select>
+                </div>
+                <div class="inputSelect">
+                    <label>Horario</label>
+                    <select>
+                        <option class="select">Seleccione un horario</option>
+                        <option>8am a 9am</option>
+                        <option>9am a 10am</option>
+                        <option>10am a 11am</option>
+                        <option>11am a 12m</option>
+                        <option>1pm a 2pm</option>
+                        <option>2pm a 3pm</option>
+                        <option>3pm a 4pm</option>
+                        <option>4pm a 5pm</option>
+                    </select>
+                </div>
+                <div class="dias">
+                    <p class="title-dias">Días</p>
+                    <div class="inputCheckbox">
+                        <label>Lunes</label>
+                        <input type="checkbox">
+                    </div>
+                    <div class="inputCheckbox">
+                        <label>Martes</label>
+                        <input type="checkbox">
+                    </div>
+                    <div class="inputCheckbox">
+                        <label>Miercoles</label>
+                        <input type="checkbox">
+                    </div>
+                    <div class="inputCheckbox">
+                        <label>Jueves</label>
+                        <input type="checkbox">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Plan de pago</legend>
+                <div class="inputCheckbox">
+                    <input type="checkbox">
+                    <label>Contado</label>
+                    <input type="text" placeholder="Forma de pago">
+                </div>
+                <div class="inputCheckbox">
+                    <input type="checkbox">
+                    <label>Credito</label>
+                    <input type="text" placeholder="Forma de pago">
+                </div>
+            </fieldset>
+            <div class="submit">
+                <input type="submit" value="Enviar el formulario" class="btn">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

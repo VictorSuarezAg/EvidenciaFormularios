@@ -1,0 +1,111 @@
+* {
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+#Title {
+    width: 100%;
+    text-align: center;
+    color: #5f5f5f;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.formulario {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+fieldset {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 20px;
+} 
+
+legend {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+.inputTexto input,
+.inputEmail input,
+.inputSelect select {
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    padding: 5px 10px;
+}
+
+.inputTexto {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2 - 20px);
+}
+
+.dias {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.title-dias {
+    width: 100%;
+}
+
+.inputEmail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputTexto label,
+.inputSelect label,
+.inputEmail label,
+.inputCheckbox label,
+.title-dias {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.submit {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    background-color: #242424;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: ease-in-out .5s;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.btn:hover {
+    background: #5f5f5f;
+    color: #ffffff;
+    transition: ease-in-out .5s;
+}
